@@ -1,0 +1,19 @@
+@import "./variables";
+
+.home-page {
+  position: relative;
+  background-image: url("../assets/austin-ban-juHayWuaaoQ-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 17vh;
+  color: $color-main-font;
+  font-family: $fontGuerrilla, sans-serif;
+}

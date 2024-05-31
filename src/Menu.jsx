@@ -1,10 +1,11 @@
 import { Link, animateScroll as scroll } from "react-scroll";
-import "./style/Menu.css";
+import "./style/Menu.scss";
 
 function Menu() {
   return (
     <div className="menu">
       <Link
+        className="menu-link"
         activeClass="active"
         to="booking"
         spy={true}

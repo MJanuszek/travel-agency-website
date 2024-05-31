@@ -1,0 +1,15 @@
+@import "./variables";
+
+.menu {
+  width: 100%;
+  position: fixed;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.menu-link {
+  font-family: $fontGuerrilla, sans-serif;
+  padding: 20px;
+}
