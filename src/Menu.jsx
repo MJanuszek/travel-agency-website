@@ -15,6 +15,17 @@ function Menu() {
       >
         Book a Trip
       </Link>
+      <Link
+        className="menu-link"
+        activeClass="active"
+        to="pricing"
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70}
+      >
+        Pricing
+      </Link>
     </div>
   );
 }
