@@ -1,6 +1,6 @@
 @import "./variables";
 
-.home-page {
+.header-page {
   position: relative;
   background-image: url("../assets/austin-ban-juHayWuaaoQ-unsplash.jpg");
   background-size: cover;
@@ -9,15 +9,11 @@
   width: 100vw;
 }
 
-h1 {
+.header-title {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 17vh;
   color: $color-main-font;
   font-family: $fontGuerrilla, sans-serif;
-}
-
-p {
-  font-family: $RobotoSlab;
 }

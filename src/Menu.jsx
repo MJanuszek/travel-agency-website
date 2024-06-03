@@ -7,6 +7,28 @@ function Menu() {
       <Link
         className="menu-link"
         activeClass="active"
+        to="about-section"
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70}
+      >
+        About Me
+      </Link>
+      <Link
+        className="menu-link"
+        activeClass="active"
+        to="credentials"
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70}
+      >
+        Credentials
+      </Link>
+      <Link
+        className="menu-link"
+        activeClass="active"
         to="booking"
         spy={true}
         smooth={true}
@@ -15,6 +37,7 @@ function Menu() {
       >
         Book a Trip
       </Link>
+
       <Link
         className="menu-link"
         activeClass="active"
