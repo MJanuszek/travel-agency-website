@@ -1,5 +1,52 @@
 @import "./variables";
 
 .pricing-section {
+  background-image: url("../assets/ayyappa-vardhan-h1Gzq-MJk74-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 90vh;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.966);
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title {
+  font-family: $fontGuerrilla;
+  margin-bottom: 7vh;
+  margin-top: 5vh;
+}
+
+.price-options {
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.option {
+  background-color: rgb(249, 251, 253);
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-title {
+  font-family: $fontGuerrilla;
+  font-size: 1.1em;
+  margin-bottom: 2vh;
+}
+
+.option-description {
+  font-size: 1.1em;
+  justify-content: center;
+  line-height: 1.4;
 }
