@@ -14,6 +14,7 @@ function Pricing() {
             exercitationem natus aliquid ea, quasi perspiciatis alias, maiores
             aliquam possimus sit, excepturi necessitatibus doloremque.
           </div>
+          <div className="price">price to negotiate</div>
         </div>
         <div className="option">
           <div className="option-title">Weekend trip</div>
@@ -23,6 +24,7 @@ function Pricing() {
             deleniti est recusandae a numquam, perferendis quaerat vitae,
             consequatur quam odio, aliquam obcaecati nemo ad.
           </div>
+          <div className="price">price to negotiate</div>
         </div>
         <div className="option">
           <div className="option-title">One week and longer</div>
@@ -35,6 +37,7 @@ function Pricing() {
             molestias nesciunt blanditiis debitis minus sed, harum quis! Odio,
             omnis eligendi!
           </div>
+          <div className="price">price to negotiate</div>
         </div>
       </div>
     </div>
