@@ -1,4 +1,5 @@
 import "./style/Sudety.scss";
+import "./style/Text.scss";
 
 function Services() {
   return (
@@ -14,20 +15,19 @@ function Services() {
       </p>
       <p className="story">
         Najwyższym szczytem Sudetów jest Śnieżka (1603 m n.p.m.), górująca nad
-        Karkonoszami i często spowita mgłą, co dodaje jej mistycznego
-        charakteru. Pasmo to skrywa również Góry Stołowe z unikalnymi formacjami
-        skalnymi, tajemnicze Rudawy Janowickie i pełne legend Góry Sowie.
+        Karkonoszami, często spowita mgłą, co dodaje jej mistycznego charakteru.
+        Pasmo to skrywa również Góry Stołowe z unikalnymi formacjami skalnymi,
+        Rudawy Janowickie i pełne legend Góry Sowie.
       </p>
       <p className="story">
         Sudety są świadkami burzliwej historii – od średniowiecznych zamków,
         przez dawne kopalnie, aż po poniemieckie schrony. Ich szlaki prowadzą
-        nie tylko przez spektakularne widoki, ale i przez ślady dawnych
-        cywilizacji.
+        nie tylko ku spektakularnym widokom, ale i przez ślady dawnych osad.
       </p>
       <p className="story">
-        To góry, które nie przytłaczają, lecz zapraszają do odkrywania w swoim
-        własnym tempie. Idealne dla tych, którzy szukają zarówno przygody, jak i
-        chwili wytchnienia wśród natury.
+        Sudety to góry, które łączą przygodę z spokojem – niezależnie od tego,
+        czy szukasz wymagających szlaków, tajemniczych miejsc czy chwili oddechu
+        wśród natury, tutaj znajdziesz coś dla siebie.
       </p>
     </div>
   );

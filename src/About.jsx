@@ -1,12 +1,13 @@
 import "./style/About.scss";
+import "./style/Text.scss";
 
 function About() {
   return (
     <div id="about-section" className="about">
       <div className="photo"></div>
       <div className="info">
-        <h2 className="about-title">Kim jestem?</h2>
-        <p>
+        <h2 className="title">Kim jestem?</h2>
+        <p className="story">
           Na co dzień nauczycielem muzyki, weekenadmi przewodnikiem górskim.
           Muzyka i góry – dwa światy, które wydają się odległe, a dla mnie
           stanowią jedność. Jako nauczyciel fortepianu uczę wrażliwości na

@@ -1,11 +1,12 @@
 import "./style/Credentials.scss";
+import "./style/Text.scss";
 
 function Credentials() {
   return (
     <>
       <div className="credentials" id="credentials">
         <div className="storyteller">
-          <h1 className="credentials-title">
+          <h1 className="title">
             Wędrówka ma swój rytm, melodia swoją przestrzeń
           </h1>
           <div>
@@ -33,9 +34,9 @@ function Credentials() {
             </p>
           </div>
         </div>
-        <h1 className="credentials-title">Poznaj mnie lepiej</h1>
+
         <div className="insta">
-          <h2 className="insta-title">Zajrzyj na:</h2>
+          <h1 className="title">Poznaj mnie lepiej</h1>
           <a
             href="https://www.instagram.com/twojanazwa_uzytkownika"
             target="_blank"

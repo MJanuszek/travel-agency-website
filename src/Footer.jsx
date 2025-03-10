@@ -1,3 +1,5 @@
+import "./style/Text.scss";
+
 function Footer() {
   return <>footer</>;
 }

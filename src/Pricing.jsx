@@ -1,4 +1,5 @@
 import "./style/Pricing.scss";
+import "./style/Text.scss";
 
 function Pricing() {
   return (
