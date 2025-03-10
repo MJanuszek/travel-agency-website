@@ -2,7 +2,7 @@
 
 .about {
   height: auto;
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .photo {
-  border: 2px solid black;
+  border: 3px solid black;
   background-image: url("../assets/christian-buehner-DItYlc26zVI-unsplash.jpg");
   justify-content: center;
   background-size: cover;
@@ -26,10 +26,14 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-.about-title {
+.about-title,
+.signature {
   font-family: $fontGuerrilla;
   margin-bottom: 2vh;
-  font-size: 1.3em;
+  font-size: 1.4em;
+  text-shadow: 2px 2px 1px $Bluewater-lowlight;
+  padding: 20px 20px 20px 0;
+  letter-spacing: 0.1em;
 }
 
 .info {
@@ -38,11 +42,5 @@
   flex-direction: column;
   letter-spacing: 0.1em;
   font-size: 1.1em;
-}
-
-.signature {
-  font-family: $fontGuerrilla;
-  margin-top: 2vh;
-  font-size: 1.3em;
-  letter-spacing: 0.1em;
+  line-height: 2em;
 }

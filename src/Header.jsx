@@ -4,9 +4,7 @@ function Header() {
   return (
     <>
       <div className="header-page">
-        <h1 className="header-title">
-          Discover most beautifull mountain trails
-        </h1>
+        <h1 className="header-title">Odkryj najpiękniejsze górskie szlaki</h1>
       </div>
     </>
   );

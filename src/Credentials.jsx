@@ -4,14 +4,23 @@ function Credentials() {
   return (
     <>
       <div className="credentials" id="credentials">
-        <h1 className="credentials-title">My credentials</h1>
+        <div className="storyteller">
+          <h1 className="credentials-title">
+            Każda wędrówka ma swój rytm, melodia swoją przestrzeń
+          </h1>
+        </div>
+        <h1 className="credentials-title">Poznaj mnie lepiej</h1>
         <div className="insta">
-          <h2 className="insta-title">Visit my instargam</h2>
+          <h2 className="insta-title">Zajrzyj na:</h2>
           <a
             href="https://www.instagram.com/twojanazwa_uzytkownika"
             target="_blank"
           >
-            <img src="src/assets/instagram.png" alt="Instagram" />
+            <img
+              className="inst-icon"
+              src="src/assets/instagram.png"
+              alt="Instagram"
+            />
           </a>
         </div>
       </div>

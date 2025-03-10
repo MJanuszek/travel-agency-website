@@ -13,7 +13,7 @@ function Menu() {
         duration={500}
         offset={-70}
       >
-        About Me
+        O mnie
       </Link>
       <Link
         className="menu-link"
@@ -24,7 +24,7 @@ function Menu() {
         duration={500}
         offset={-70}
       >
-        Credentials
+        Doświadczenie
       </Link>
       <Link
         className="menu-link"
@@ -35,7 +35,7 @@ function Menu() {
         duration={500}
         offset={-70}
       >
-        Book a Trip
+        Zarezerwuj wycieczkę
       </Link>
 
       <Link
@@ -47,7 +47,7 @@ function Menu() {
         duration={500}
         offset={-70}
       >
-        Pricing
+        Cennik
       </Link>
     </div>
   );

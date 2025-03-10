@@ -10,10 +10,13 @@
 }
 
 .header-title {
+  font-size: 2.2em;
+  letter-spacing: 0.1em;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 17vh;
-  color: $color-main-font;
+  color: darken($color: $Bluewater-lowlight, $amount: 10);
+  text-shadow: 2px 2px 1px #000000;
   font-family: $fontGuerrilla, sans-serif;
 }

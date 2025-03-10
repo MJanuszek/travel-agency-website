@@ -13,10 +13,10 @@ function Home() {
       <Menu />
       <Header />
       <About />
-      <Credentials />
       <TripBooking />
       <Services />
       <Pricing />
+      <Credentials />
       <Footer />
     </div>
   );
