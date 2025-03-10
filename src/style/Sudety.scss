@@ -1,0 +1,20 @@
+@import "./variables";
+.sudety {
+  height: 90vh;
+  border-bottom: 1px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/tobias-keller-73F4pKoUkM0-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: $fontGuerrilla;
+  margin-bottom: 2vh;
+  font-size: 2.4em;
+  text-shadow: 2px 2px 1px $Bluewater-lowlight;
+  padding: 20px 20px 20px 0;
+  letter-spacing: 0.1em;
+}

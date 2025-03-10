@@ -3,7 +3,7 @@ import "./style/Pricing.scss";
 function Pricing() {
   return (
     <div className="pricing-section" id="pricing">
-      <h1 className="section-title">Prices</h1>
+      <h1 className="section-title">Oferta</h1>
       <div className="price-options">
         <div className="option">
           <div className="option-title">One day trip</div>

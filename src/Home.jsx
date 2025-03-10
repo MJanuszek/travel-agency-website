@@ -2,7 +2,7 @@ import Menu from "./Menu";
 import Header from "./Header";
 import TripBooking from "./TripBooking";
 import Footer from "./Footer";
-import Services from "./Services";
+import Sudety from "./Sudety";
 import Pricing from "./Pricing";
 import About from "./About";
 import Credentials from "./Credentials";
@@ -13,10 +13,10 @@ function Home() {
       <Menu />
       <Header />
       <About />
-      <TripBooking />
-      <Services />
+      <Sudety />
       <Pricing />
       <Credentials />
+      <TripBooking />
       <Footer />
     </div>
   );

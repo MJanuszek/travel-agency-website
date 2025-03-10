@@ -18,6 +18,28 @@ function Menu() {
       <Link
         className="menu-link"
         activeClass="active"
+        to="sudety"
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70}
+      >
+        Sudety
+      </Link>
+      <Link
+        className="menu-link"
+        activeClass="active"
+        to="pricing"
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70}
+      >
+        Oferta
+      </Link>
+      <Link
+        className="menu-link"
+        activeClass="active"
         to="credentials"
         spy={true}
         smooth={true}
@@ -36,18 +58,6 @@ function Menu() {
         offset={-70}
       >
         Zarezerwuj wycieczkę
-      </Link>
-
-      <Link
-        className="menu-link"
-        activeClass="active"
-        to="pricing"
-        spy={true}
-        smooth={true}
-        duration={500}
-        offset={-70}
-      >
-        Cennik
       </Link>
     </div>
   );
