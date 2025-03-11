@@ -3,7 +3,7 @@ import "./style/Text.scss";
 
 function About() {
   return (
-    <div id="about-section" className="about">
+    <div id="about-section" className="about wrapper">
       <div className="photo"></div>
       <div className="info">
         <h2 className="title">Kim jestem?</h2>

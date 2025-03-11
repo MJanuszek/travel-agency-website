@@ -4,7 +4,7 @@ import "./style/Text.scss";
 function Credentials() {
   return (
     <>
-      <div className="credentials" id="credentials">
+      <div className="credentials wrapper" id="credentials">
         <div className="storyteller">
           <h1 className="title">
             Wędrówka ma swój rytm, melodia swoją przestrzeń

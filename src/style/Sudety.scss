@@ -3,29 +3,12 @@
   min-height: 90vh;
   border-bottom: 1px solid black;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  background-image: url("../assets/tobias-keller-73F4pKoUkM0-unsplash.jpg");
-  background-size: cover;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-.sudety::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: $blure;
-  opacity: 0.2;
-
-  z-index: 1;
-}
-
-.sudety .story,
-.title {
-  z-index: 5;
+  background-color: #fff;
+  background: linear-gradient(rgba(250, 249, 249, 0.5), rgba(0, 0, 0, 0.5));
 }

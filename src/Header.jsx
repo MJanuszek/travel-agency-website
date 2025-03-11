@@ -4,7 +4,8 @@ import "./style/Text.scss";
 function Header() {
   return (
     <>
-      <div className="header-page">
+      <div className="header-page wrapper">
+        <div className="logo-sudety"></div>
         <h1 className="title">Odkryj najpiękniejsze górskie szlaki</h1>
       </div>
     </>

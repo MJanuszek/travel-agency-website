@@ -3,7 +3,7 @@ import "./style/Text.scss";
 
 function Services() {
   return (
-    <div className="sudety" id="sudety">
+    <div className="sudety wrapper" id="sudety">
       <h1 className="title">Sudety, czyli gdzie?</h1>
 
       <p className="story">

@@ -1,11 +1,11 @@
 @import "./variables";
 
 .pricing-section {
-  background-image: url("../assets/ayyappa-vardhan-h1Gzq-MJk74-unsplash.jpg");
+  background-image: url("../assets/IMGP8771.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // height: 90vh;
+  min-height: 90vh;
   height: auto;
   box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.966);
   border-bottom: 1px solid black;
@@ -55,3 +55,21 @@
 .price {
   margin-top: 2vh;
 }
+
+// .sudety::after {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: $blure;
+//   opacity: 0.2;
+
+//   z-index: 1;
+// }
+
+// .sudety .story,
+// .title {
+//   z-index: 5;
+// }
