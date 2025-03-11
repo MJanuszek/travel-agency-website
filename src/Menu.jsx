@@ -59,6 +59,17 @@ function Menu() {
       >
         Zarezerwuj wycieczkę
       </Link>
+      <Link
+        className="menu-link"
+        activeClass="active"
+        to="contact-info"
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70}
+      >
+        Kontakt
+      </Link>
     </div>
   );
 }

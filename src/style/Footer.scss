@@ -1,0 +1,24 @@
+.footer {
+  color: whitesmoke;
+  min-height: 15vh;
+  background: #0f2027; /* fallback for old browsers */
+  background: #485563; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29323c,
+    #53606e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #53606e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  padding: 15px;
+}
+
+.footer .menu-link {
+  color: whitesmoke;
+  margin-bottom: 7vh;
+}
