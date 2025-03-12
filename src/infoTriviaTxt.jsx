@@ -149,6 +149,56 @@ const trivia = [
     txt01:
       "Góry te były świadkami wielu bitew i ważnych wydarzeń historycznych, co sprawia, że są interesującym miejscem do badań dla historyków.",
   },
+  {
+    id: 31,
+    txt01:
+      "Sudety oferują łącznie ponad 2000 km szlaków turystycznych, zapewniając wyjątkowe możliwości do pieszych wędrówek.",
+  },
+  {
+    id: 32,
+    txt01:
+      "W Sudetach odnotowano obecność ponad 3000 gatunków roślin, co stanowi jedno z największych skupisk botanicznych w Europie Środkowej.",
+  },
+  {
+    id: 33,
+    txt01:
+      "Karkonosze, będące częścią Sudetów, są najczęściej odwiedzanym pasmem górskim w Polsce, przyciągającym rocznie miliony turystów.",
+  },
+  {
+    id: 34,
+    txt01:
+      "Najdłuższy jaskiniowy system w Sudetach ma ponad 10 km długości i znajduje się w Górach Stołowych.",
+  },
+  {
+    id: 35,
+    txt01:
+      "Najwyższy wodospad w Sudetach, Wodospad Kamieńczyka, ma wysokość 27 metrów.",
+  },
+  {
+    id: 36,
+    txt01:
+      "Sudety są domem dla najstarszego festiwalu górskiego w Polsce, który odbywa się co roku od ponad 30 lat.",
+  },
+  {
+    id: 37,
+    txt01:
+      "Najstarsze archeologiczne znaleziska w Sudetach datowane są na około 5000 lat przed naszą erą.",
+  },
+  {
+    id: 38,
+    txt01:
+      "Obszar Sudetów obejmuje ponad 10% powierzchni Czech, co sprawia, że jest to jedno z największych obszarów górskich w kraju.",
+  },
+  {
+    id: 39,
+    txt01:
+      "Liczba zarejestrowanych turystów odwiedzających Sudety przekroczyła 4 miliony w ostatnim roku.",
+  },
+  {
+    id: 40,
+    txt01:
+      "Góra Śnieżka, najwyższy szczyt Sudetów, jest jednocześnie najczęściej odwiedzanym szczytem w polskich Karkonoszach.",
+  },
 ];
 
 export default trivia;

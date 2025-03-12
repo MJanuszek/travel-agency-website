@@ -30,13 +30,15 @@
 }
 
 .trivia-btn {
-  padding: 10px;
+  padding: 15px;
   min-width: 12vw;
   background-color: lighten($color: $color-main-font, $amount: 50);
   color: aliceblue;
   font-family: $FontMain, serif;
   font-size: 1.3rem;
   border-radius: 12px;
+  letter-spacing: 0.3em;
+  text-align: center;
 }
 
 .trivia-btn:hover {
@@ -47,8 +49,10 @@
   min-height: 15vh;
   max-width: 40vw;
   margin-top: 3vh;
-  margin-bottom: 4vh;
+  margin-bottom: 6vh;
   padding: 30px;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .img-between {

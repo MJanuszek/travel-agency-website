@@ -13,7 +13,7 @@ const Trivia = function () {
   return (
     <div className="trivia">
       <button className="trivia-btn" onClick={getNewTrivia}>
-        Losuj
+        Losuj Trivia
       </button>
       <p className="story trivia-story">{mytrivia}</p>
     </div>
