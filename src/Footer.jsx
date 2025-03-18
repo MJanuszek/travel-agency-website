@@ -1,5 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./style/Footer.scss";
+import Instagram from "./Instagram";
 
 function Footer() {
   return (
@@ -18,6 +19,7 @@ function Footer() {
         >
           Formularz kontaktowy
         </Link>
+        <Instagram />
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import "./style/Credentials.scss";
 import "./style/Text.scss";
+import Video from "./Video";
 
 function Credentials() {
   return (
@@ -34,20 +35,7 @@ function Credentials() {
             </p>
           </div>
         </div>
-
-        <div className="insta">
-          <h1 className="title">Poznaj mnie lepiej</h1>
-          <a
-            href="https://www.instagram.com/twojanazwa_uzytkownika"
-            target="_blank"
-          >
-            <img
-              className="inst-icon"
-              src="src/assets/instagram.png"
-              alt="Instagram"
-            />
-          </a>
-        </div>
+        <Video />
       </div>
     </>
   );

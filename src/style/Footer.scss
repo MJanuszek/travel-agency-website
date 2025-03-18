@@ -2,15 +2,8 @@
 
 .footer {
   color: whitesmoke;
-  min-height: 15vh;
-  background: #0f2027; /* fallback for old browsers */
-  background: #485563; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #29323c,
-    #53606e
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #29323c, #53606e);
+  min-height: 35vh;
+  background: linear-gradient(to right, #a4c1e5, #879a99);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,11 +15,21 @@
 
 .footer .menu-link {
   color: whitesmoke;
-  margin-bottom: 7vh;
+  margin-bottom: 3vh;
 }
 .footer .menu-link:hover {
   color: $Pink-highlight;
   .footer {
     background-color: #fff;
   }
+}
+
+.insta {
+  padding: 20px;
+  margin-bottom: 5vh;
+}
+
+.inst-icon {
+  height: 40px;
+  width: 40px;
 }
